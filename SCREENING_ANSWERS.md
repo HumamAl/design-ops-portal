@@ -16,7 +16,7 @@ Lead Intake CRM — internal intake and pipeline tool with configurable automati
 
 Next.js (frontend) + PostgreSQL + Prisma ORM + Node/Express or Next.js API routes for the backend — gives you clean multi-tenancy with row-level isolation, fast UI, and a codebase that's easy to hand off or extend. AWS S3 for file uploads, SendGrid for email notifications.
 
-Built a working version for your project specifically: {VERCEL_URL}
+Built a working version for your project specifically: https://design-ops-portal.vercel.app
 
 ---
 
