@@ -13,6 +13,10 @@ import {
   User,
   ArrowRight,
   Github,
+  FolderKanban,
+  Building2,
+  FileImage,
+  Activity,
 } from "lucide-react";
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -23,9 +27,11 @@ import {
 // ═══════════════════════════════════════════════════════════════════════════
 
 const navItems = [
-  { href: "/", label: "Dashboard", icon: LayoutDashboard },
-  // Dashboard Builder agent: add 3-5 feature page nav items here.
-  // Example: { href: "/orders", label: "Orders", icon: ShoppingCart },
+  { href: "/", label: "Overview", icon: LayoutDashboard },
+  { href: "/projects", label: "Projects", icon: FolderKanban },
+  { href: "/clients", label: "Clients", icon: Building2 },
+  { href: "/deliverables", label: "Deliverables", icon: FileImage },
+  { href: "/activity", label: "Activity", icon: Activity },
 ];
 
 function SidebarLogo({ collapsed }: { collapsed: boolean }) {
